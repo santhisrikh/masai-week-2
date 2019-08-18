@@ -1,0 +1,106 @@
+
+ .cont1{
+    background-image: url(resources/nasa.webp);
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size: cover;
+
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background-image: url(resources/media.jpg)!important;
+                       
+    }
+    .cont1{
+        
+    }
+    }
+
+.cont2 h1{
+  font-family:fantasy;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 3px skyblue;
+}
+.cont{
+    display :grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    margin-left: 250px;
+}
+.cont img{
+    height:150px;
+    width:150px;
+}
+
+
+.cont3 h2 {
+  font-size:30px;
+  color:wheat;
+        }
+        .cont3 p {
+  font-size:20px;
+  color:wheat;
+        }
+        .cont3 img{
+            float:right;
+        }
+        .cont3 a{
+            float:right;
+            font-size: 20px;
+            margin-right: 20px;
+            color: pink;
+            
+        }
+       
+        .cont4{
+            display: flex;
+            margin-left :150px;
+            margin-top:100px;
+                        }
+           .cont4 div{
+               
+               margin:30px;            
+   
+           }
+           .item{
+               flex-direction: row;
+           }
+        
+              .cont4 img{
+                  height:180px;
+                  width:180px;
+              }
+              .item p{
+                  border : 2px solid black;
+                  padding:2px;
+                  text-align: center;
+                  background-position: 2px;
+              }
+              .cont5{
+                display: flex;
+                margin-left :150px;
+                margin-top:100px;
+                            }
+               .cont5 div{
+                   
+                   margin:30px;                
+       
+               }
+               .item1{
+                   flex-direction: row;
+               }
+            
+                  .cont5 img{
+                      height:180px;
+                      width:180px;
+                  }
+                  .item1 p{
+                      border : 2px solid black;
+                      padding:5px;
+                      text-align: center;
+                      background-position: 2px;
+                      text-shadow:2px 2px skyblue;
+                  }
+                 
